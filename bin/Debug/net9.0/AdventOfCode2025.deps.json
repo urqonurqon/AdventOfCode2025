@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "AdvendOfCode2025/1.0.0": {
+      "AdventOfCode2025/1.0.0": {
         "runtime": {
-          "AdvendOfCode2025.dll": {}
+          "AdventOfCode2025.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "AdvendOfCode2025/1.0.0": {
+    "AdventOfCode2025/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
