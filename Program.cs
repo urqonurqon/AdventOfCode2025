@@ -133,9 +133,5 @@ namespace AdventOfCode2024 {
             }
         }
 	
-		static void Day0()
-		{
-
-		}
 	}
 }

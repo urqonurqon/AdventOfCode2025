@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\MrkUnityProjects\\AdventOfCode2025\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{29687F22-7C7A-45BC-B66B-60931B39F34C}|AdventOfCode2025.csproj|c:\\mrkunityprojects\\adventofcode2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29687F22-7C7A-45BC-B66B-60931B39F34C}|AdventOfCode2025.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{29687F22-7C7A-45BC-B66B-60931B39F34C}|AdventOfCode2025.csproj|c:\\mrkunityprojects\\adventofcode2025\\day5\\day5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29687F22-7C7A-45BC-B66B-60931B39F34C}|AdventOfCode2025.csproj|solutionrelative:day5\\day5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29687F22-7C7A-45BC-B66B-60931B39F34C}|AdventOfCode2025.csproj|c:\\mrkunityprojects\\adventofcode2025\\day5\\inputday5.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{29687F22-7C7A-45BC-B66B-60931B39F34C}|AdventOfCode2025.csproj|solutionrelative:day5\\inputday5.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29687F22-7C7A-45BC-B66B-60931B39F34C}|AdventOfCode2025.csproj|c:\\mrkunityprojects\\adventofcode2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29687F22-7C7A-45BC-B66B-60931B39F34C}|AdventOfCode2025.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InputDay5.txt",
               "DocumentMoniker": "C:\\MrkUnityProjects\\AdventOfCode2025\\Day5\\InputDay5.txt",
               "RelativeDocumentMoniker": "Day5\\InputDay5.txt",
               "ToolTip": "C:\\MrkUnityProjects\\AdventOfCode2025\\Day5\\InputDay5.txt",
               "RelativeToolTip": "Day5\\InputDay5.txt",
-              "ViewState": "AgIAAG0EAAAAAAAAAAAcwKIEAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAFgEAAAAAAAAAAAcwKIEAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-12-05T09:10:32.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Day5.cs",
               "DocumentMoniker": "C:\\MrkUnityProjects\\AdventOfCode2025\\Day5\\Day5.cs",
               "RelativeDocumentMoniker": "Day5\\Day5.cs",
               "ToolTip": "C:\\MrkUnityProjects\\AdventOfCode2025\\Day5\\Day5.cs",
               "RelativeToolTip": "Day5\\Day5.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAtwD8AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAlwEEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T09:10:29.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\MrkUnityProjects\\AdventOfCode2025\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\MrkUnityProjects\\AdventOfCode2025\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAjwDoAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAqwHgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T09:09:14.155Z",
               "EditorCaption": ""
