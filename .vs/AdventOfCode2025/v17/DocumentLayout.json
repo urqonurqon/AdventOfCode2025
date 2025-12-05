@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\MrkUnityProjects\\AdventOfCode2025\\",
+  "WorkspaceRootPath": "C:\\Users\\urqon\\source\\repos\\AdventOfCode2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5E02918-641C-4044-9C0E-0FE45B354220}|AdventOfCode2025\\AdventOfCode2025.csproj|c:\\mrkunityprojects\\adventofcode2025\\adventofcode2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5E02918-641C-4044-9C0E-0FE45B354220}|AdventOfCode2025\\AdventOfCode2025.csproj|c:\\users\\urqon\\source\\repos\\adventofcode2025\\adventofcode2025\\day4\\inputday4.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F5E02918-641C-4044-9C0E-0FE45B354220}|AdventOfCode2025\\AdventOfCode2025.csproj|solutionrelative:adventofcode2025\\day4\\inputday4.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E02918-641C-4044-9C0E-0FE45B354220}|AdventOfCode2025\\AdventOfCode2025.csproj|c:\\users\\urqon\\source\\repos\\adventofcode2025\\adventofcode2025\\day4\\day4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E02918-641C-4044-9C0E-0FE45B354220}|AdventOfCode2025\\AdventOfCode2025.csproj|solutionrelative:adventofcode2025\\day4\\day4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E02918-641C-4044-9C0E-0FE45B354220}|AdventOfCode2025\\AdventOfCode2025.csproj|c:\\users\\urqon\\source\\repos\\adventofcode2025\\adventofcode2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5E02918-641C-4044-9C0E-0FE45B354220}|AdventOfCode2025\\AdventOfCode2025.csproj|solutionrelative:adventofcode2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InputDay4.txt",
+              "DocumentMoniker": "C:\\Users\\urqon\\source\\repos\\AdventOfCode2025\\AdventOfCode2025\\Day4\\InputDay4.txt",
+              "RelativeDocumentMoniker": "AdventOfCode2025\\Day4\\InputDay4.txt",
+              "ToolTip": "C:\\Users\\urqon\\source\\repos\\AdventOfCode2025\\AdventOfCode2025\\Day4\\InputDay4.txt",
+              "RelativeToolTip": "AdventOfCode2025\\Day4\\InputDay4.txt",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAUwIgAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-04T18:43:38.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Day4.cs",
+              "DocumentMoniker": "C:\\Users\\urqon\\source\\repos\\AdventOfCode2025\\AdventOfCode2025\\Day4\\Day4.cs",
+              "RelativeDocumentMoniker": "AdventOfCode2025\\Day4\\Day4.cs",
+              "ToolTip": "C:\\Users\\urqon\\source\\repos\\AdventOfCode2025\\AdventOfCode2025\\Day4\\Day4.cs",
+              "RelativeToolTip": "AdventOfCode2025\\Day4\\Day4.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAMwDIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T18:43:37.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\MrkUnityProjects\\AdventOfCode2025\\AdventOfCode2025\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\urqon\\source\\repos\\AdventOfCode2025\\AdventOfCode2025\\Program.cs",
               "RelativeDocumentMoniker": "AdventOfCode2025\\Program.cs",
-              "ToolTip": "C:\\MrkUnityProjects\\AdventOfCode2025\\AdventOfCode2025\\Program.cs",
+              "ToolTip": "C:\\Users\\urqon\\source\\repos\\AdventOfCode2025\\AdventOfCode2025\\Program.cs",
               "RelativeToolTip": "AdventOfCode2025\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAiwHQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T09:54:59.956Z",
               "EditorCaption": ""

@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MrkNovena\\.nuget\\packages\\": {},
+    "C:\\Users\\urqon\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MrkUnityProjects\\AdventOfCode2025\\AdventOfCode2025\\AdventOfCode2025.csproj",
+      "projectUniqueName": "C:\\Users\\urqon\\source\\repos\\AdventOfCode2025\\AdventOfCode2025\\AdventOfCode2025.csproj",
       "projectName": "AdventOfCode2025",
-      "projectPath": "C:\\MrkUnityProjects\\AdventOfCode2025\\AdventOfCode2025\\AdventOfCode2025.csproj",
-      "packagesPath": "C:\\Users\\MrkNovena\\.nuget\\packages\\",
-      "outputPath": "C:\\MrkUnityProjects\\AdventOfCode2025\\AdventOfCode2025\\obj\\",
+      "projectPath": "C:\\Users\\urqon\\source\\repos\\AdventOfCode2025\\AdventOfCode2025\\AdventOfCode2025.csproj",
+      "packagesPath": "C:\\Users\\urqon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\urqon\\source\\repos\\AdventOfCode2025\\AdventOfCode2025\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MrkNovena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\urqon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -73,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
