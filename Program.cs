@@ -128,8 +128,14 @@ namespace AdventOfCode2024 {
             if (filePath != null)
             {
                 day = new Day5(filePath);
-                Console.WriteLine("FreshIngredients: " + day.Solve());
+                Console.WriteLine("Fresh Ingredients: " + day.Solve());
+                Console.WriteLine("All unique Ingredients: " + day.SolvePartTwo());
             }
         }
+	
+		static void Day0()
+		{
+
+		}
 	}
 }
