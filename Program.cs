@@ -147,5 +147,25 @@ namespace AdventOfCode2024 {
 				Console.WriteLine("Sum of columns but in columns: " + day.SolvePartTwo());
 			}
 		}
+	
+		static void Day7()
+		{
+			Day7 day;
+
+			string? filePath = _dayDataPath + "Input" + _methodName + ".txt";
+
+			if (filePath != null)
+			{
+				day = new Day7(filePath);
+				//Console.WriteLine("Number of Splits: " + day.Solve());
+				Console.WriteLine("Number of Splits in Timelines: " + day.PartTwoSum);
+			}
+		}
+	
+	
+		static void Day8()
+		{
+
+		}
 	}
 }
