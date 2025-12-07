@@ -73,7 +73,7 @@ namespace AdventOfCode2024 {
 
 			if (filePath != null)
 			{
-                day = new Day1(filePath);
+				day = new Day1(filePath);
 
 				Console.WriteLine("Password is: " + day.Solver());
 			}
@@ -88,7 +88,7 @@ namespace AdventOfCode2024 {
 
 			if (filePath != null)
 			{
-                day = new Day2(filePath);
+				day = new Day2(filePath);
 				Console.WriteLine("Sum of invalid ID's: " + day.Solve());
 			}
 		}
@@ -105,7 +105,7 @@ namespace AdventOfCode2024 {
 				Console.WriteLine("Sum of batteries is: " + day.Solve(12));
 			}
 		}
-	
+
 		static void Day4()
 		{
 			Day4 day;
@@ -118,20 +118,34 @@ namespace AdventOfCode2024 {
 				Console.WriteLine("Movable papiruses: " + day.Sum);
 			}
 		}
-	
+
 		static void Day5()
 		{
-            Day5 day;
+			Day5 day;
 
-            string? filePath = _dayDataPath + "Input" + _methodName + ".txt";
+			string? filePath = _dayDataPath + "Input" + _methodName + ".txt";
 
-            if (filePath != null)
-            {
-                day = new Day5(filePath);
-                Console.WriteLine("Fresh Ingredients: " + day.Solve());
-                Console.WriteLine("All unique Ingredients: " + day.SolvePartTwo());
-            }
-        }
-	
+			if (filePath != null)
+			{
+				day = new Day5(filePath);
+				Console.WriteLine("Fresh Ingredients: " + day.Solve());
+				Console.WriteLine("All unique Ingredients: " + day.SolvePartTwo());
+			}
+		}
+
+
+		static void Day6()
+		{
+			Day6 day;
+
+			string? filePath = _dayDataPath + "Input" + _methodName + ".txt";
+
+			if (filePath != null)
+			{
+				day = new Day6(filePath);
+				//Console.WriteLine("Sum of columns: " + day.Solve());
+				Console.WriteLine("Sum of columns but in columns: " + day.SolvePartTwo());
+			}
+		}
 	}
 }
