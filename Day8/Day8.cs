@@ -41,33 +41,33 @@ namespace AdventOfCode {
 			}
 
 			distances = distances.OrderBy((d) => d.Item1).ToList();
-
-			for (int i = 0; i < numberOfConnections; i++)
+			int m = 0;
+			(int, int) lastPair = new();
+			bool isFirstLap = true;
+			circuits.Add(new());
+			connections.Add(distances[m].Item2);
+			circuits[m].Add(connections[m].Item1);
+			circuits[m].Add(connections[m].Item2);
+			while (circuits.Count != 1 || circuits[0].Count != _coords.Count)
 			{
-				connections.Add(distances[i].Item2);
 
 
-				if (i == 0)
+				if (m != 0)
 				{
-					circuits.Add(new());
-					circuits[i].Add(connections[i].Item1);
-					circuits[i].Add(connections[i].Item2);
-				}
-				else
-				{
+					connections.Add(distances[m].Item2);
 					bool newEntry = true;
 					for (int j = 0; j < circuits.Count; j++)
 					{
 						for (int k = 0; k < circuits[j].Count; k++)
 						{
-							if (connections[i].Item1 == circuits[j][k] || connections[i].Item2 == circuits[j][k])
+							if (connections[m].Item1 == circuits[j][k] || connections[m].Item2 == circuits[j][k])
 							{
 								newEntry = false;
-								bool item1In = connections[i].Item1 == circuits[j][k];
+								bool item1In = connections[m].Item1 == circuits[j][k];
 								bool alreadyIn = false;
 								for (int l = k + 1; l < circuits[j].Count; l++)
 								{
-									if ((item1In ? connections[i].Item2 : connections[i].Item1) == circuits[j][l])
+									if ((item1In ? connections[m].Item2 : connections[m].Item1) == circuits[j][l])
 									{
 										alreadyIn = true;
 										break;
@@ -75,26 +75,28 @@ namespace AdventOfCode {
 
 								}
 
-								if (alreadyIn)
-								{
-									//numberOfConnections++;
 
-								}
-								else
+								if (!alreadyIn)
 								{
 									bool connectRows = false;
 									for (int l = 0; l < circuits.Count; l++)
 									{
-										if (circuits[l].Contains(item1In ? connections[i].Item2 : connections[i].Item1))
+										if (circuits[l].Contains(item1In ? connections[m].Item2 : connections[m].Item1))
 										{
 											connectRows = true;
 											circuits[j].AddRange(circuits[l]);
 											circuits.RemoveAt(l);
+											lastPair = connections[m];
 											break;
 										}
 									}
 									if (!connectRows)
-										circuits[j].Add(item1In ? connections[i].Item2 : connections[i].Item1);
+									{
+
+										circuits[j].Add(item1In ? connections[m].Item2 : connections[m].Item1);
+										lastPair = connections[m];
+									}
+
 								}
 								break;
 							}
@@ -106,21 +108,22 @@ namespace AdventOfCode {
 					{
 
 						circuits.Add(new());
-						circuits[circuits.Count - 1].Add(connections[i].Item1);
-						circuits[circuits.Count - 1].Add(connections[i].Item2);
+						circuits[circuits.Count - 1].Add(connections[m].Item1);
+						circuits[circuits.Count - 1].Add(connections[m].Item2);
 					}
 				}
+				m++;
 			}
 
+			_multiplicatonResult = _coords[lastPair.Item1].Item1 * _coords[lastPair.Item2].Item1;
+			//circuits.Sort((a, b) => b.Count - a.Count);
 
-			circuits.Sort((a, b) => b.Count - a.Count);
 
 
-
-			for (int i = 0; i < numberOfMultiplications; i++)
-			{
-				_multiplicatonResult *= circuits[i].Count;
-			}
+			//for (int i = 0; i < numberOfMultiplications; i++)
+			//{
+			//	_multiplicatonResult *= circuits[i].Count;
+			//}
 
 			return _multiplicatonResult;
 

@@ -176,5 +176,6 @@ namespace AdventOfCode2024 {
 				//Console.WriteLine("Number of Splits in Timelines: " + day.PartTwoSum);
 			}
 		}
+	
 	}
 }
