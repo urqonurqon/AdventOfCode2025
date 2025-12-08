@@ -165,7 +165,16 @@ namespace AdventOfCode2024 {
 	
 		static void Day8()
 		{
+      Day8 day;
 
+      string? filePath = _dayDataPath + "Input" + _methodName + ".txt";
+
+      if (filePath != null)
+      {
+        day = new Day8(filePath);
+				Console.WriteLine("Distance Multiplication: " + day.Solve(1000,3));
+				//Console.WriteLine("Number of Splits in Timelines: " + day.PartTwoSum);
+			}
 		}
 	}
 }
