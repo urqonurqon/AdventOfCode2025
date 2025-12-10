@@ -202,5 +202,18 @@ namespace AdventOfCode2024
       }
     }
 
-  }
+  
+		static void Day10()
+		{
+      Day10 day;
+
+      string? filePath = _dayDataPath + "Input" + _methodName + ".txt";
+
+      if (filePath != null)
+      {
+        day = new Day10(filePath);
+        Console.WriteLine("Smallest number of presses: " + day.Solve());
+      }
+    }
+	}
 }
