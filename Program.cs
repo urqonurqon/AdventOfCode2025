@@ -213,6 +213,7 @@ namespace AdventOfCode2024
       {
         day = new Day10(filePath);
         Console.WriteLine("Smallest number of presses: " + day.Solve());
+        Console.WriteLine("Smallest number of presses P2: " + day.SolvePartTwo());
       }
     }
 	}
