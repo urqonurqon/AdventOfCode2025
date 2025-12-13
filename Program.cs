@@ -212,8 +212,36 @@ namespace AdventOfCode2024
       if (filePath != null)
       {
         day = new Day10(filePath);
-        Console.WriteLine("Smallest number of presses: " + day.Solve());
+        //Console.WriteLine("Smallest number of presses: " + day.Solve());
         Console.WriteLine("Smallest number of presses P2: " + day.SolvePartTwo());
+      }
+    }
+	
+		static void Day11()
+		{
+      Day11 day;
+
+      string? filePath = _dayDataPath + "Input" + _methodName + ".txt";
+
+      if (filePath != null)
+      {
+        day = new Day11(filePath);
+        Console.WriteLine("Smallest number of presses: " + day.Solve());
+        //Console.WriteLine("Smallest number of presses P2: " + day.SolvePartTwo());
+      }
+    }
+	
+		static void Day12()
+		{
+      Day11 day;
+
+      string? filePath = _dayDataPath + "Input" + _methodName + ".txt";
+
+      if (filePath != null)
+      {
+        day = new Day11(filePath);
+        Console.WriteLine("Smallest number of presses: " + day.Solve());
+        //Console.WriteLine("Smallest number of presses P2: " + day.SolvePartTwo());
       }
     }
 	}
